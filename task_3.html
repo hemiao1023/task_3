@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>三栏布局</title>
+    <style>
+        div{box-sizing: border-box}
+        .container,.left,.right,.center{border: 1px solid #999; padding: 20px}
+        .container{background-color: #eee; height: 600px}
+        .left{background-color: #ffffff; float: left; width: 200px; text-align: center}
+        .right{background-color: #ffffff; width: 120px; float: right;text-align: center}
+        .center{background-color: #ffffff; margin-left: 240px; margin-right: 160px;height: 400px;
+            overflow: scroll}
+        .memberlogo{height: 80px; width: 80px; border: 1px solid #999; margin-bottom: 15px}
+        #grouplogo{width:80%}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="left">
+        <img id="grouplogo" src="https://r11.fodey.com/2410/d056a0d89d2946dcafcf0751f7225e0e.1.gif" >
+        <div id="groupname">城市</div>
+    </div>
+    <div class="right">
+        <img id="member1" class="memberlogo" src="img/code.png" title="1">
+        <img id="member2" class="memberlogo" src="img/touxiang.png" title="2">
+        <img id="member3" class="memberlogo" src="img/logo.jpg" title="3">
+        <img id="member4" class="memberlogo" src="img/yangchenhao.png" title="4">
+        <img id="member5" class="memberlogo" src="img/wechat.jpg" title="5">
+    </div>
+    <div class="center">
+        <h3 style="color:red;">中国</h3>
+        <p>
+            city
+        </p>
+        <strong><a href="http://axuebin.com/webGroup" target="_blank">团队主页(可以点一下哦~)</a></strong>
+        <p><strong>1:</strong>北京</p>
+        <p><strong>2:</strong>上海<a href="http://axuebin.com" target="_blank">个人博客：http://axuebin.com</a></p>
+        <p><strong>3:</strong>深圳<a href="mailto:nong99@outlook.com">   有事没事给我发邮件吧~</a></p>
+        <p><strong>4:</strong>广州<a href="http://chenhao-yang.github.io/" target="_blank">个人博客：http://chenhao-yang.github.io/</a></p>
+        <p><strong>5:</strong>杭州</p>
+    </div>
+</div>
+</body>
+</html>
